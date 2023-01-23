@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+  color: black;
+}
+
+.mail {
+    position: fixed;
+  width: 211px;
+  float: right;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  position: fixed;
+  padding: 1%;
+  width: 100%;
+}
+
+html {
+  font-family: sans-serif;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  position: relative;
+  padding: 1rem;
+  height: 100vh;
+  scroll-snap-align: start;
+  text-align: center;
+}
+
+.one {
+  background-color: white;
+}
+
+.two {
+  background-color: #00c1b5;
+}
+
+.three {
+  background-color: #ff651a;
+}
+
+.four {
+  background-color: #ffbe00;
+}
+
+.five {
+  background-color: #1d3fbb;
+}
+
+.six {
+  background-color: #e30512;
+}
+
+.info {
+  position: fixed;
+  bottom: 0px;
+  left: 1px;
+  margin: 10px;
+  padding: 2px;
+}
+
+.issue {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin: 10px;
+  padding: 2px;
+}
+
+img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
